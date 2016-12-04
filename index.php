@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Osiris Programme Info Site</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet"></link>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,7 +19,25 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header class="container">
+      <div class="row">
+        <div class="col xs-6">
+          <h1>Osiris</h1>
+        </div>
+        <nav class="col xs-6">
+          <p>About Osiris</p>
+          <p>Meet the Team</p>
+        </nav>
+      </div>
+    </header>
+    <section class="jumbotron">
+      <div class="row text-center">
+        <h2>Osiris</h2>
+        <h4>Digital Transformation in Europe and Canada</h4>
+      </div>
+    </section>
+    <div class="container">
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
