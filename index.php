@@ -21,10 +21,8 @@
   <body>
     <header class="container">
       <div class="row">
-        <div class="col xs-6">
-          <h1>Osiris</h1>
-        </div>
-        <nav class="col xs-6">
+        <h1 class="col xs-4">Osiris</h1>
+        <nav class="col xs-8">
           <p>About Osiris</p>
           <p>Meet the Team</p>
         </nav>
@@ -33,11 +31,9 @@
     <section class="jumbotron">
       <div class="row text-center">
         <h2>Osiris</h2>
-        <h4>Digital Transformation in Europe and Canada</h4>
+        <h3>Digital Transformation in Europe and Canada</h3>
       </div>
     </section>
-    <div class="container">
-    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
