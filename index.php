@@ -6,32 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Osiris Programme Info Site</title>
-
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet"></link>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link href="css/main.css" rel="stylesheet" type="text/css"></link>
   </head>
   <body>
     <header class="container">
       <div class="row">
         <h1 class="col xs-4">Osiris</h1>
-        <nav class="col xs-8">
+        <nav class="col xs-8 text-right">
           <p>About Osiris</p>
           <p>Meet the Team</p>
+          <!--D52B1E-->
         </nav>
       </div>
     </header>
     <section class="jumbotron">
-      <div class="row text-center">
-        <h2>Osiris</h2>
-        <h3>Digital Transformation in Europe and Canada</h3>
+      <div class="container">
+        <div class="row text-center">
+          <h2>Osiris</h2>
+          <h3>Digital Transformation in Europe and Canada</h3>
+        </div>
       </div>
     </section>
 
