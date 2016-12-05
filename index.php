@@ -17,11 +17,10 @@
         <nav class="col xs-8 text-right">
           <p>About Osiris</p>
           <p>Meet the Team</p>
-          <!--D52B1E-->
         </nav>
       </div>
     </header>
-    <section class="jumbotron">
+    <section class="jumbotron" id="jumbo">
       <div class="container">
         <div class="row text-center">
           <h2>Osiris</h2>
@@ -29,6 +28,13 @@
         </div>
       </div>
     </section>
+    <footer class="container">
+      <div class="row">
+        <p class="col xs-3">
+          Stefan Aspin
+        </p>
+      </div>
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
