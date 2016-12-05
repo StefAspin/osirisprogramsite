@@ -3,13 +3,12 @@ body {
   font-weight: 300;
 }
 
-header,
-
-header .row {
-  background-color: #D52B1E;
-  align-items: center;
+header {
+  padding: 20px 0;
+  background-color: #D52B1E
 }
 
+header .row,
 footer .row {
   display: flex;
   align-items: center;
@@ -27,8 +26,9 @@ header nav {
 }
 
 header p {
-  padding: 20px;
-  vertical-align: middle;
+  padding: 0 20px;
+  margin: 0;
+  color: #FFFFFF;
 }
 
 .jumbotron {
