@@ -17,13 +17,13 @@
 
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/main2.css" rel="stylesheet" />
   </head>
 <!-- NAVBAR
 ================================================== -->
   <body>
     <div class="navbar-wrapper">
       <div class="container">
-
         <nav class="navbar navbar-inverse navbar-static-top">
           <div class="container">
             <div class="navbar-header">
@@ -33,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Project name</a>
+              <a class="navbar-brand" id="headerTitle" href="#">Osiris</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -74,9 +74,9 @@
           <img class="first-slide" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>A new way of working.</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <h1>A New Way of Working</h1>
+              <p>Combining a new architecture, methodology and quality practices,we are accelerating and improving our digital framework.</p>
+              <p><a class="btn btn-lg btn-primary carouselButton" href="#" role="button">Find out more</a></p>
             </div>
           </div>
         </div>
@@ -86,7 +86,7 @@
             <div class="carousel-caption">
               <h1>Another example headline.</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <p><a class="btn btn-lg btn-primary carouselButton" href="#" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
@@ -96,7 +96,7 @@
             <div class="carousel-caption">
               <h1>One more for good measure.</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              <p><a class="btn btn-lg btn-primary carouselButton" href="#" role="button">Browse gallery</a></p>
             </div>
           </div>
         </div>
@@ -174,16 +174,16 @@
       <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
-
-
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-
     </div><!-- /.container -->
-
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer">
+        <div class="inline-row">
+          <p class="pull-right"><a href="#">Back to top</a></p>
+          <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </div>
+      </div>
+    </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
