@@ -12,18 +12,53 @@
   color: white;
 }
 
-#footerBlock {
-  background-color: grey;
-  margin: 20px;
-  padding-top: 10px;
+.navbar-inverse .navbar-nav .active a {
+  color: white;
+  background-color: #D52B1E;
+}
+
+.navbar-inverse .navbar-nav li a {
+  color: white;
+  background-color: #D52B1E;
+}
+
+.featurette {
+  background-color: #1a1a1a;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.featurette .lead {
+  color: white;
+}
+
+.technicalText {
+  color : #3399FF;
+}
+
+.agileText{
+  color: #FF6600;
+}
+
+.qualityText {
+  color: #CC66FF;
 }
 
 .footer {
   position: relative;
   bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  line-height: 60px; /* Vertically center the text there */
+}
+
+#footerBanner {
+  color: white;
   background-color: grey;
+  height: 100px;
+  padding: 20px;
+}
+
+.footerLink {
+  color: white;
+  font-size: 15px;
+  padding: 20px;
 }
