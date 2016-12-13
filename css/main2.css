@@ -1,0 +1,29 @@
+.carouselButton {
+  background-color: grey;
+  border-color: #FFFFFF;
+}
+
+.navbar-inverse {
+  background-color: #D52B1E;
+  border-color: #D52B1E;
+}
+
+#headerTitle{
+  color: white;
+}
+
+#footerBlock {
+  background-color: grey;
+  margin: 20px;
+  padding-top: 10px;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: grey;
+}
