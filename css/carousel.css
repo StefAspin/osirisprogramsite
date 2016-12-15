@@ -1,11 +1,5 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
-body {
-  color: #5a5a5a;
-}
-
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -39,7 +33,6 @@ body {
 /* Carousel base class */
 .carousel {
   height: 500px;
-  margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
