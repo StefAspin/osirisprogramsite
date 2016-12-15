@@ -10,6 +10,7 @@
 
 #headerTitle{
   color: white;
+  background-color: #D52B1E;
 }
 
 .navbar-inverse .navbar-nav .active a {
@@ -42,6 +43,10 @@
 
 .qualityText {
   color: #CC66FF;
+}
+
+.analyticsText {
+  color: #33CC33;
 }
 
 .footer {
